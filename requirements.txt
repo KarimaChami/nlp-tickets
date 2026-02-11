@@ -1,0 +1,10 @@
+pandas
+scikit-learn 
+matplotlib 
+seaborn
+transformers 
+torch 
+chromadb 
+# evidently;
+mlflow
+nltk
