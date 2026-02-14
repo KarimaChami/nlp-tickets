@@ -8,3 +8,6 @@ chromadb
 # evidently;
 mlflow
 nltk
+evidently
+joblib
+sentence-transformers

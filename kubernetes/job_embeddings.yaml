@@ -1,0 +1,12 @@
+apiVersion: batch/v1
+kind: Job
+metadata:
+  name: nlp-embeddings-job
+spec:
+  template:
+    spec:
+      containers:
+      - name: nlp-embeddings
+        image: nlp-tickets:latest
+        imagePullPolicy: Never  # si local avec minikube
+      restartPolicy: Never
